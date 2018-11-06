@@ -1,0 +1,1 @@
+{"version":3,"sources":["jwt-token.js"],"names":["console","log"],"mappings":";AACEA,QAAQC,IAAI","file":"jwt-token.ee5b9132.map","sourceRoot":"../src","sourcesContent":["(function() {\n  console.log('test');\n})();"]}

@@ -1,0 +1,25 @@
+{
+  "name": "jwt-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild-x": "rm -rf docs && mkdir docs && cp ./src/favicon.ico ./docs/favicon.ico",
+    "build": "NODE_ENV=production parcel build --no-content-hash --out-dir docs --public-url /jwt-token src/index.html",
+    "serve": "NODE_ENV=development parcel src/index.html --out-dir docs --port $PORT --log-level 3 --hmr-port 8081"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexiszuck/jwt-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexiszuck/jwt-token/issues"
+  },
+  "homepage": "https://github.com/alexiszuck/jwt-token#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}
